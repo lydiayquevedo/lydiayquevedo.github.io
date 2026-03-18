@@ -14,23 +14,39 @@
         <script src="/script.js" defer></script>
     </head>
     <body>
-        <div>
-		<a class="active" href="index.html">Home</a>
-		<a href="research.html">Research</a>
-		<a href="teaching.html">Teaching</a>
-        <a href = "other-projects.html">Other projects</a>
-	    </div>
-        <header>
+        <div class="masthead">
+            <div class="masthead__inner-wrap">
+                <div class="masthead__menu">
+                
+                <nav id="site-nav" class="greedy-nav">
+                    <ul class="visible-links">
+                    <li class="masthead__menu-item"><a class="active" href="index.html">Home</a></li>
+                    <li class="masthead__menu-item"><a href="research.html">Research</a></li>
+                    <li class="masthead__menu-item"><a href="teaching.html">Teaching</a></li>
+                    <li class="masthead__menu-item"><a href="other-projects.html">Other projects</a></li>
+                    </ul>
+                </nav>
+
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            
+            
+        <header class = "sidebar">
             <h1>Lydia Quevedo</h1>
-            <img src="assets/teotihuacan.JPG", width="200">
+            <img id ="profile" src="assets/teotihuacan.JPG" width="200">
             <p><i>Phonologist & cognitive scientist</i></p>
             <p>[ˈlɪˌdijə ˌkɛˈvɛðo]</p>
             <p>lquevedo [at] umd [dot] edu</p>
         </header>
+
         
+        <div id = "main" role = "main">
+            <div></div>
         <p>Hi! I'm a PhD candidate in the <a href='https://linguistics.umd.edu/'>Department of Linguistics</a> at the University of Maryland, College Park, advised by <a href="https://katemooney.org/">Kate Mooney</a> and <a href = 'https://users.umiacs.umd.edu/~nhf/'>Naomi Feldman</a>.</p>
 
-        <a>I am also a member of the <a href="https://wiki.umiacs.umd.edu/clip/index.php/Main_Page">Computational Linguistics and Information Processing (CLIP) lab</a> and the <a href="https://languagescience.umd.edu/">Maryland Language Science Center</a>.
+        I am also a member of the <a href="https://wiki.umiacs.umd.edu/clip/index.php/Main_Page">Computational Linguistics and Information Processing (CLIP) lab</a> and the <a href="https://languagescience.umd.edu/">Maryland Language Science Center</a>.
 
         <p>Broadly speaking, I research the human capacity for language. Narrowly, I'm a phonologist primarily interested in consonant harmony. The kinds of questions that interest me most are: 
             <ul>
@@ -51,11 +67,16 @@
                 <a href="https://utkuturk.com/">Utku Turk</a>
             .</p>
             <p>My CV can be accessed <a href="assets/Quevedo-CV-2026.pdf">here</a>.</p>
+            
+            
         
         <h2>News</h2>
         <ul>
             <li>March 14th 2026: My AMP 2026 proceedings paper with Kate Mooney is out! View it <a href="https://doi.org/10.7275/amphonology.3694">here</a>.</li>
             <li>October 30th 2025: Advanced to candidacy!</li>
         </ul>
+        </div>
+        
+        </div>
     </body>
 </html>
